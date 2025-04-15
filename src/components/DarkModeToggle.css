@@ -1,0 +1,15 @@
+.dark-toggle-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--btn-bg, #eee);
+    color: var(--btn-text, #333);
+    border: none;
+    transition: background 0.3s ease;
+  }
+  
+  .dark .dark-toggle-btn {
+    background-color: var(--btn-bg-dark, #333);
+    color: var(--btn-text-dark, #fff);
+  }

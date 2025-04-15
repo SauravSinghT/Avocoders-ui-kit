@@ -1,0 +1,5 @@
+src/
+demo/
+vite.config.js
+node_modules/
+README.md

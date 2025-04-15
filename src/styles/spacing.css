@@ -1,0 +1,69 @@
+/* Margin */
+.m1 { margin: var(--spacing-xs); }
+.m2 { margin: var(--spacing-sm); }
+.m3 { margin: var(--spacing-md); }
+.m4 { margin: var(--spacing-lg); }
+.m5 { margin: var(--spacing-xl); }
+
+/* Margin Top */
+.mt1 { margin-top: var(--spacing-xs); }
+.mt2 { margin-top: var(--spacing-sm); }
+.mt3 { margin-top: var(--spacing-md); }
+.mt4 { margin-top: var(--spacing-lg); }
+.mt5 { margin-top: var(--spacing-xl); }
+
+/* Margin Right */
+.mr1 { margin-right: var(--spacing-xs); }
+.mr2 { margin-right: var(--spacing-sm); }
+.mr3 { margin-right: var(--spacing-md); }
+.mr4 { margin-right: var(--spacing-lg); }
+.mr5 { margin-right: var(--spacing-xl); }
+
+/* Margin Bottom */
+.mb1 { margin-bottom: var(--spacing-xs); }
+.mb2 { margin-bottom: var(--spacing-sm); }
+.mb3 { margin-bottom: var(--spacing-md); }
+.mb4 { margin-bottom: var(--spacing-lg); }
+.mb5 { margin-bottom: var(--spacing-xl); }
+
+/* Margin Left */
+.ml1 { margin-left: var(--spacing-xs); }
+.ml2 { margin-left: var(--spacing-sm); }
+.ml3 { margin-left: var(--spacing-md); }
+.ml4 { margin-left: var(--spacing-lg); }
+.ml5 { margin-left: var(--spacing-xl); }
+
+/* Padding */
+.p1 { padding: var(--spacing-xs); }
+.p2 { padding: var(--spacing-sm); }
+.p3 { padding: var(--spacing-md); }
+.p4 { padding: var(--spacing-lg); }
+.p5 { padding: var(--spacing-xl); }
+
+/* Padding Top */
+.pt1 { padding-top: var(--spacing-xs); }
+.pt2 { padding-top: var(--spacing-sm); }
+.pt3 { padding-top: var(--spacing-md); }
+.pt4 { padding-top: var(--spacing-lg); }
+.pt5 { padding-top: var(--spacing-xl); }
+
+/* Padding Right */
+.pr1 { padding-right: var(--spacing-xs); }
+.pr2 { padding-right: var(--spacing-sm); }
+.pr3 { padding-right: var(--spacing-md); }
+.pr4 { padding-right: var(--spacing-lg); }
+.pr5 { padding-right: var(--spacing-xl); }
+
+/* Padding Bottom */
+.pb1 { padding-bottom: var(--spacing-xs); }
+.pb2 { padding-bottom: var(--spacing-sm); }
+.pb3 { padding-bottom: var(--spacing-md); }
+.pb4 { padding-bottom: var(--spacing-lg); }
+.pb5 { padding-bottom: var(--spacing-xl); }
+
+/* Padding Left */
+.pl1 { padding-left: var(--spacing-xs); }
+.pl2 { padding-left: var(--spacing-sm); }
+.pl3 { padding-left: var(--spacing-md); }
+.pl4 { padding-left: var(--spacing-lg); }
+.pl5 { padding-left: var(--spacing-xl); }
