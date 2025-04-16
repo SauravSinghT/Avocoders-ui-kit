@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="p-4 flex flex-col gap-4 items-center">
       <h1 className="text-xl font-bold text-blue-900">UI Components Demo</h1>
-      <button className='border-2 border-red-500'>button</button>
+      <button className='border-2 border-red-500 pointer'>button</button>
       <Card className='flex p4 gap-4 bg-red-500 border-2 border-blue-600'>
         <h2 className="text-lg font-semibold mb-2 text-white">Buttons</h2>
         <Button onClick={() => alert('Primary Clicked!')}>Primary</Button>

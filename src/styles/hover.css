@@ -1,0 +1,77 @@
+/* Hover Styles */
+
+.hover-effect {
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .hover-effect:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: default;
+  }
+  
+  .hover-border {
+    transition: border-color 0.2s ease-in-out;
+    border-color: transparent;
+  }
+  
+  .hover-border:hover {
+    border-color: var(--ui-primary-color, blue);
+    cursor: default;
+  }
+  
+  .hover-text {
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .hover-text:hover {
+    color: var(--ui-accent-color, green);
+    cursor: default;
+  }
+  
+  .hover-shadow {
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: none;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: default;
+  }
+  
+  .hover-combined {
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .hover-combined:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: default;
+  }
+  
+  /* Pointer Styles */
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .cursor-grab {
+    cursor: grab;
+  }
+  
+  .cursor-grabbing {
+    cursor: grabbing;
+  }
+  
+  .cursor-zoom-in {
+    cursor: zoom-in;
+  }
+  
+  .cursor-zoom-out {
+    cursor: zoom-out;
+  }
+  
+  .cursor-not-allowed {
+    cursor: not-allowed;
+  }
