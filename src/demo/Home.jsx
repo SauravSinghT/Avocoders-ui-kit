@@ -4,17 +4,17 @@ import { Button, Input, TextArea, Badge, Card, Loader,DarkModeToggle} from '../c
 const Home = () => {
   return (
     <div className="p-4 flex flex-col gap-4 items-center">
-      <h1 className="text-xl font-bold">UI Components Demo</h1>
-
-      <Card className='flex p4 bg-red-500'>
-        <h2 className="text-lg font-semibold mb-2 text-red-500">Buttons</h2>
+      <h1 className="text-xl font-bold text-blue-900">UI Components Demo</h1>
+      <button className='border-2 border-red-500'>button</button>
+      <Card className='flex p4 gap-4 bg-red-500 border-2 border-blue-600'>
+        <h2 className="text-lg font-semibold mb-2 text-white">Buttons</h2>
         <Button onClick={() => alert('Primary Clicked!')}>Primary</Button>
-        <Button className="bg-orange-800">Custom Red</Button>
+        <Button className='bg-red-600 text-white border-2 border-white'>Custom Red</Button>
       </Card>
       <Card className='flex flex-col gap-4'>
         <h2 className="text-lg font-semibold mb-2">Inputs</h2>
-        <Input placeholder="Type something..." />
-        <TextArea placeholder="Multiline input..." />
+        <Input placeholder="Type something..."  className='rounded-xl'/>
+        <TextArea placeholder="Multiline input..."  className='rounded-xl p2'/>
       </Card>
       <DarkModeToggle/>
       <Card>

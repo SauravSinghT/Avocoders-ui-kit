@@ -26,13 +26,13 @@ npm install avocode-ui-library
 
 import React from 'react'
 import { Button, Badge, Card, Input, Loader, Textarea } from 'avocode-ui-library';
-import 'avocoders-ui-kit/dist/assets/index-leZCuNPv.css';
+import 'avocode-ui-library/dist/assets/index-B053_CXX.css';
 
 
 function App() {
   return (
     <Card title="Welcome">
-      <p>This is a custom card using Avocoders UI Kit.</p>
+      <p>This is a custom card using Avocoders UI Librayr.</p>
       <Button>Click Me</Button>
     </Card>
     <Badge text="New" color="green" />
