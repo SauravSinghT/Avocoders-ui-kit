@@ -16,10 +16,12 @@
 
 ```bash
 npm install avocode-ui-library
+```
 
 ## 🌍 CDN (For Vanilla JS/HTML Projects)
-
-<link href="https://cdn.jsdelivr.net/npm/avocode-ui-library@1.0.1/dist/assets/index-B053_CXX.css" rel="stylesheet" />
+``` bash
+<link href="https://cdn.jsdelivr.net/npm/avocode-ui-library/dist/assets/index-1y7S7Gk-.css" rel="stylesheet" />
+```
 
 
 ## 🧩 Usage
